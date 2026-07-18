@@ -1,0 +1,15 @@
+# SQL Data Analysis Project
+
+This repository contains a complete SQL-based data analysis project focused on analyzing e-commerce sales and order data using PostgreSQL. The project demonstrates how SQL can be used to explore, clean, transform, and analyze raw business data to generate meaningful insights.
+
+The analysis begins with database and table creation, followed by data exploration and the calculation of key business metrics such as total orders, customers, products, locations, payment methods, order statuses, total quantity sold, and total sales.
+
+The project covers detailed analysis of product performance, including total orders, quantity sold, total sales, average unit price, and the identification of top-performing products. It also analyzes sales performance across payment methods, order statuses, coupon codes, and referral sources.
+
+Time-based analysis is performed to evaluate sales by month, year, and month-year. The project also includes time-series analysis using window functions to calculate month-over-month sales changes.
+
+Advanced SQL techniques are used throughout the project, including window functions, `LAG()`, `NTILE()`, `CUME_DIST()`, aggregate functions, `CASE` statements, subqueries, date functions, data type casting, and conditional data transformation.
+
+The project also includes comparative product analysis, sales contribution percentages, deviation from the highest and lowest sales, sales categorization, identification of the top 20% of orders, and data cleaning by handling missing coupon code values.
+
+Overall, this project demonstrates practical PostgreSQL skills and the application of SQL for exploratory data analysis, business intelligence, sales performance analysis, customer analysis, and extracting actionable insights from e-commerce data.
